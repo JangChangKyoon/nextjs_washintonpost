@@ -8,6 +8,10 @@ module.exports = {
         source: "/posts",
         destination: `https://books-api.nomadcoders.workers.dev/lists`,
       },
+      {
+        source: "/api/movies/:id",
+        destination: `https://books-api.nomadcoders.workers.dev/list/:id`,
+      },
     ];
   },
 };
